@@ -47,7 +47,7 @@ export const features = [
     icon: shield,
     title: "Development",
     content:
-      "Experience job hunting with engaging, video-based job postings directly from recruiters.",
+      "Experience job hunting with engaging, video based job postings directly from recruiters.",
   },
   {
     id: "feature-3",

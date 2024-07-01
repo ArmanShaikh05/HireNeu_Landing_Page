@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Your Career, <br className="sm:block hidden" />{" "}
+            Your Career <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Reimagined</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
@@ -31,8 +31,8 @@ const Hero = () => {
           through Video
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Discover job opportunities with engaging video-based postings and
-          showcase your talents uniquely with Hire-Ñeu. Apply instantly with a
+          Discover job opportunities with engaging video based postings and
+          showcase your talents uniquely with HireNeu. Apply instantly with a
           single click and explore company culture in a new, interactive way.
         </p>
       </div>
