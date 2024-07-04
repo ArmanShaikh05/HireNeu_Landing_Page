@@ -3,7 +3,7 @@ import { useState } from "react";
 const Contact = () => {
   const [Name, setName] = useState("");
   const [Email, setEmail] = useState("");
-  const [Message, setMessage] = useState("");
+  const [Number, setNumber] = useState("");
 
   async function submit(e) {
     e.preventDefault();
@@ -13,7 +13,7 @@ const Contact = () => {
 
     formData.append("Name", Name);
     formData.append("Email", Email);
-    formData.append("Message", Message);
+    formData.append("Number", Number);
 
     const response = await fetch(url, {
       method: "POST",
@@ -23,7 +23,7 @@ const Contact = () => {
 
     setName("");
     setEmail("");
-    setMessage("");
+    setNumber("");
 
     alert("Thank You");
   }
@@ -63,16 +63,17 @@ const Contact = () => {
           />
         </div>
         <div>
-          <label className="block mb-2 text-[24px] text-white">Message</label>
-          <textarea
-            name="Message"
+          <label className="block mb-2 text-[24px] text-white">
+            Contact Number
+          </label>
+          <input
+            name="Number"
             required
-            rows={5}
             type="text"
-            placeholder="Message"
-            value={Message}
+            placeholder="Contact Number"
+            value={Number}
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            onChange={(e) => setMessage(e.target.value)}
+            onChange={(e) => setNumber(e.target.value)}
           />
         </div>
 
