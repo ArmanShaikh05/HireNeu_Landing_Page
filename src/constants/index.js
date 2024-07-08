@@ -62,25 +62,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "NexaWings made my SAAS idea a reality with GoCPT! This AI powered software will revolutionize healthcare billing.",
-    name: "Tiffinne Perkins",
-    title: "Medical Professional",
+      "I am a software developer. I was actively looking for a job where i can find a good working environment. HireNeu helped me to find a cultural fit job and approach the recruiters personally.",
+    name: "Steve",
+    title: "Software Developer",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Storyia has been brought to life in an exceptional manner by NexaWings. They totally exceeded all our expectations.",
-    name: "Fehym Evo",
-    title: "Entrepreneur",
+      "I was able to attend open interviews and take the interviews at my own pace, rather than missing interview schedules.",
+    name: "Jayesh",
+    title: "System Tester",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "NexaWings played a pivotal role in transforming my restaurant operations. Their expertise in implementing AI chatbots significantly improved my customer operations.",
-    name: "Rory Russel",
-    title: "Restaraunt Owner",
+      "HireNeu helped me to find a cool job where i can actually take liberty and get sociable, rather than a strict professional work environment.",
+    name: "Rudrayan",
+    title: "Digital Marketer",
     img: people03,
   },
 ];

@@ -10,8 +10,7 @@ const CTA = () => {
       <div className="flex-1 flex flex-col">
         <h2 className={styles.heading2}>Try out our services now</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Everything that you need to grow your business, from anywhere around
-          the planet.
+          Everything that you need to find your dream job.
         </p>
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0`}>

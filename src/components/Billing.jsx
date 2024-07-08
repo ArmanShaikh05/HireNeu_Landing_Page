@@ -19,11 +19,11 @@ const Billing = () => {
         <h2 className={styles.heading2}>
           Turbocharge your
           <br className="sm:block hidden" />
-          business with AI
+          recruitment with AI
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Website Chatbot <br /> Customer Service Automation <br /> AI driven
-          Data Analytics
+          Brand yourself <br /> Engaging & Customizable portfolios <br />
+          Personalized job suggestions
         </p>
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
           <Button />

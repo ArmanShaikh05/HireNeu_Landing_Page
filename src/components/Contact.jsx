@@ -30,12 +30,9 @@ const Contact = () => {
 
   return (
     <div className="flex gap-x-10 mb-10">
-      <div className="block mb-2 text-[24px] text-dimWhite w-2/5 break-words mt-[75px]">
-        Unlock the potential of AI for your business today! Take the first step
-        towards enhanced efficiency and innovation by filling up the form on the
-        side. Plus, as a bonus, enjoy a complimentary consultation with our
-        expert team at NexaWings. Let's turn your AI dreams into
-        reality – together!
+      <div className="block mb-2 text-[24px] text-dimWhite w-2/5 break-words mt-[100px]">
+        Unlock the potential of AI Search Algorithms, Vertical Video Contents &
+        video Portfolios to land your dream job.
       </div>
       <form onSubmit={(e) => submit(e)} className="flex flex-col gap-y-6 w-3/5">
         <div>
