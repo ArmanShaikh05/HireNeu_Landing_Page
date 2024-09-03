@@ -23,6 +23,9 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import video from "./video.svg";
+import savings from "./savings.svg";
+import handshake from "./handshake.svg";
 
 export {
   microsoft,
@@ -50,4 +53,7 @@ export {
   people01,
   people02,
   people03,
+  video,
+  savings,
+  handshake,
 };

@@ -13,6 +13,9 @@ import {
   send,
   shield,
   star,
+  video,
+  savings,
+  handshake,
 } from "../assets";
 
 export const navLinks = [
@@ -21,16 +24,12 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "Job_Seekers",
+    title: "Job Seekers",
   },
   {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
+    id: "SME",
+    title: "SME",
   },
 ];
 
@@ -38,23 +37,47 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Discovery",
+    title: "Shine Among Others",
     content:
-      "Dive into company profiles featuring culture, testimonials, and employee benefits to find your perfect fit.",
+      "Create video profiles to highlight your soft skills, project demos and personal expectations for your dream job.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Development",
+    title: "Know Before Applying",
     content:
-      "Experience job hunting with engaging, video based job postings directly from recruiters.",
+      "Gain insights into company culture, Transparent information and work enviornment.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Delivery",
+    title: "Meet The Recruiters",
     content:
-      "Create a compelling video portfolio that highlights your skills, projects, and professional journey.",
+      "Get to know about recruiters and directly interact with them even before the interview.",
+  },
+];
+
+export const features2 = [
+  {
+    id: "feature-1",
+    icon: video,
+    title: "Promote Company Culture",
+    content:
+      "Enhance your brand visiblity by showcasing your company culture through engaging video.",
+  },
+  {
+    id: "feature-2",
+    icon: handshake,
+    title: "Retention Through Talent Pool",
+    content:
+      "Build a proactive talent pool that fits your values, improving retention.",
+  },
+  {
+    id: "feature-3",
+    icon: savings,
+    title: "Cost Effective",
+    content:
+      "Affordable recruitment solutions designed specifically to help SMEs.",
   },
 ];
 

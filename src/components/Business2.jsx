@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { features } from "../constants";
+import { features, features2 } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -25,29 +25,30 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () => {
+const Business2 = () => {
   return (
-    <section id="Job_Seekers" className={layout.section}>
-      <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>
-          Apply to jobs seamlessly,
-          <br className="sm:block hidden" />
-          with just one click.
-        </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Be among the first to experience HireNeu and revolutionize your job
-          search! Sign up as a beta user and enjoy exclusive features designed
-          to make job finding easier.
-        </p>
-        <Button styles="mt-10" text="Register as Job Seeker" url={"https://forms.gle/ogEmLZwaAZUAB1Bu6"} />
-      </div>
-      <div className={`${layout.sectionImg} flex-col`}>
-        {features.map((feature, index) => (
+    <section id="SME" className={layout.section}>
+      
+      <div className={`${layout.sectionImg2} flex-col`}>
+        {features2.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))}
+      </div>
+
+      <div className={layout.sectionInfo}>
+        <h2 className={styles.heading2}>
+          Brand your culture,
+          <br className="sm:block hidden" />
+          Attract the right talent.
+        </h2>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+         
+Be one of the first to explore HireNeu and transform the hiring experience! Sign up as a beta user and gain access to exclusive features which help you find the right talent.
+        </p>
+        <Button styles="mt-10" text="Register as SME" url="https://forms.gle/hBFcxCUsU4E2aUPXA" />
       </div>
     </section>
   );
 };
 
-export default Business;
+export default Business2;

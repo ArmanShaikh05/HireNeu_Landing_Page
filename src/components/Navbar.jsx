@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <img src={logo} alt="NexaWings" className="h-[35px]" />
-      <div className="font-poppins font-medium text-[18px] m-1 bg-gradient-to-r from-green-400 via-cyan-400 to-cyan-500 bg-clip-text text-transparent">
+      <div className="font-poppins font-medium text-[18px] m-1 bg-gradient-to-r from-[#D73ABF]  to-[#8746D8] bg-clip-text text-transparent">
         HireNeu
       </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">

@@ -1,17 +1,10 @@
-import React from "react";
 import {
-  Billing,
   Business,
-  CardDeal,
-  Clients,
-  CTA,
   Footer,
   Hero,
-  Navbar,
-  Stats,
-  Testimonials,
-  Contact,
+  Navbar
 } from "./components";
+import Business2 from "./components/Business2";
 import styles from "./style";
 
 const App = () => {
@@ -29,15 +22,16 @@ const App = () => {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats />
+          {/* <Stats /> */}
           <Business />
-          <Billing />
+          <Business2 />
+          {/* <Billing /> */}
           {/* <CardDeal /> */}
-          <Testimonials />
-          <Clients />
-          <CTA />
+          {/* <Testimonials /> */}
+          {/* <Clients /> */}
+          {/* <CTA /> */}
           <Footer />
-          <Contact />
+          {/* <Contact /> */}
         </div>
       </div>
     </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../style";
 import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
@@ -10,12 +9,12 @@ const Footer = () => {
         <div className="flex-1 flex flex-col justify-center mr-10 ml-5 h-[200px]">
           <div className="flex items-center">
             <img src={logo} alt="NexaWings" className="object-contain h-16" />
-            <div className="font-poppins font-medium text-[36px] m-1 bg-gradient-to-r from-green-400 via-cyan-400 to-cyan-500 bg-clip-text text-transparent">
+            <div className="font-poppins font-medium text-[36px] m-1 bg-gradient-to-r from-[#D73ABF]  to-[#8746D8] bg-clip-text text-transparent">
               HireNeu
             </div>
           </div>
           <p className={`${styles.paragraph} mt-4 min-w-[310px]`}>
-            Your Career, Reimagined through Video
+          Beyond Resumes, Real Connections
           </p>
         </div>
         <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
@@ -46,15 +45,6 @@ const Footer = () => {
       <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
         <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
           2024 HireNeu. All Rights Reserved.
-          <br /> Made by{" "}
-          <a
-            href="https://www.linkedin.com/in/arkodeep-chatterjee/"
-            target="_blank"
-            className="text-cyan-300"
-            rel="noreferrer"
-          >
-            Arkodeep Chatterjee.
-          </a>
         </p>
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (
