@@ -27,9 +27,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Business2 = () => {
   return (
-    <section id="SME" className={layout.section}>
-      
-      <div className={`${layout.sectionImg2} flex-col`}>
+    <section id="SME" className={layout.section2}>
+      <div className={`${layout.sectionImg2} flex-col mt-10 `}>
         {features2.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))}
@@ -42,10 +41,15 @@ const Business2 = () => {
           Attract the right talent.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-         
-Be one of the first to explore HireNeu and transform the hiring experience! Sign up as a beta user and gain access to exclusive features which help you find the right talent.
+          Be one of the first to explore HireNeu and transform the hiring
+          experience! Sign up as a beta user and gain access to exclusive
+          features which help you find the right talent.
         </p>
-        <Button styles="mt-10" text="Register as SME" url="https://forms.gle/hBFcxCUsU4E2aUPXA" />
+        <Button
+          styles="mt-10"
+          text="Register as SME"
+          url="https://forms.gle/hBFcxCUsU4E2aUPXA"
+        />
       </div>
     </section>
   );
